@@ -1,0 +1,40 @@
+The San Antonio Heart Study:
+
+The SAHS is a population-based study of diabetes and cardiovascular disease in Mexican-American and non-Hispanic white men and women 25-64 years of age. The participants were enrolled in two cohorts, cohort 1 ranging from 1979-1982,a nd c Detailed descriptions of the study design, sampling procedures, response rates, and field procedures have appeared elsewhere. [4,9,13,16].
+
+Our dataset is from the phase 2 (cohort  2) of the study as mentioned is Dr. Abdul Ghani's paper [1].
+
+The features looked at by Dr. abdul Ghani in his papes.
+
+1. Incremental Area under the Glucose curve (0-120 minutes)
+2. 1-h glucose value
+3. Insulin Secretion/ Insulin Resistance Index, a.k.a. IGM in our datasets
+4. Time to return to fasting glucose value
+
+
+Diabetes is characterized by insulin secretion defects and insulin action, all due to \beta- cell dysfunction which occurs way before diabetes can be diagnosed.
+
+The World Health Organization (WHO) has set a criterion to diagnose through OGTT which is based on the following:
+
+2-hour fasting plasma glucose >=200 mg/dl OR,
+Fasting plasma glucose >= 126 mg/dl
+
+
+
+Recruitment of subjects into the SAHS occurred in two phases:
+the first encompassed the period from October 1979 to November 1982 and the second the period from October 1984 to October 1988. Both phases consisted of independent random samples conducted in different groups of census tracts.
+
+The test data includes:
+
+MA - Mexican Americans and,
+
+NHW - Non-hispanic whites
+
+
+
+References:
+
+[1]. What Is the Best Predictor of Future Type 2 Diabetes?
+
+
+What are we going to talk about in the context of the 

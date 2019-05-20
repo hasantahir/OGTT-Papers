@@ -1,0 +1,42 @@
+Color code the features common in both ranking and abd
+
+
+list the acc of ranked features along 
+
+Transactions of BME -> Technical 
+
+Slides for ABD
+
+One feature at a time -> Done 
+
+box plots for Gluc and Insu and other top ranked features -> Done
+
+How many features are giving the maximum acc. What is the acc. --> Done
+What are the names of the features
+Box plots of features
+
+1st paper tp be medical paper
+
+
+Send papers to Lejla
+
+
+Agree with ABD for the medical journal path
+
+
+Make the axes consistent in all the figures
+
+NHANES III Dataset 
+
+Update the Remote Health Presentation
+
+
+comaprison to literatutere 
+
+
+After results
+
+Check 
+
+
+Section: Comparison of results 

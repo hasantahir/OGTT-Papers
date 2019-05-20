@@ -1,0 +1,52 @@
+From Roffo's paper:
+
+      “a good feature subset is one that contains features highly correlated with (predictive of) the class, yet uncorrelated with (not predictive of) each other [5]
+
+
+For the problem of diabetes prediction, there are two things that are important:
+
+This is a supervised learning problem in which the labels are known.
+
+In order to create a feature subspsace using feature selection, wrapper method is used in which the performance of a  combination of features is evaluated using a classifier (in this case linear SVM)
+
+1. Rank the features in terms of their performance. This can be done using the fisher test or calculating the F-score. However, this test does not give any idea about the correlation of two features. In some cases, a combination of more than one feature may result in performance enhancement.
+
+An advantage of this technique is that we can use reduce the dimensionality of feature space by discarding redundant, irrelevant features that will naturally lead to better and efficient performance of the system. (in this case a classifier).
+
+2. The second method that is more important in our case is to gauge the performance of a subset of features. This is commonly called as wrapping or subset selection.
+
+In some of similar prediction studies done earlier, people have mostly short-listed the features in terms of the OGTT.
+
+(from Cheng and Long's paper: )
+        One of the most popular approaches to realize MaxDependency is maximal relevance (Max-Relevance) feature selection: selecting the features with the highest relevance to the target class c. Relevance is usually characterized in terms of correlation or mutual information, of which the latter is one of the widely used measures to define dependency of
+        variables.
+
+        In feature selection, it has been recognized that the combinations of individually good features do not necessarily lead to good classification performance.
+
+(from Gene Selection for cancer classification using SVMs)
+        SVMs have recently been intensively studied and benchmarked against a variety of techniques (see for instance, Guyon, 1999). They are presently one of the      best-known classification techniques with computational advantages over their contenders (Cristianini, 1999).
+
+DeFronzo'z paper on the signifficance of insulin rsisitancce
+
+        Insulin resistance is a hallmark of type 2 diabetes  mellitus and is associated with a metabolic and cardiovascular cluster of disorders (dyslipidaemia, hypertension, obesity
+        [especially visceral], glucose intolerance, endothelial dysfunction), each of which is an independent risk factor for cardiovascular disease (CVD). Multiple prospective studies have documented an association between insulin resistance and accelerated CVD in patients with type 2 diabetes, as well as in non-diabetic individuals.
+
+        For every 1% decrement in HbA1c, the incidence of microvascular complications is reduced by ∼25% to 35%.
+
+        On the risks of cardiovascular disease after diabetes:
+          In type 2 diabetic patients without prior history of myocardial infarction, the 7-year incidence of myocardial infarction is equal to or greater than the 7-year incidence of heart   attack in non-diabetic individuals with prior myocardial infarction [5]. In diabetic patients with a previous heart attack, the 7-year incidence of subsequent myocardial infarction is more than double
+          (45%) that of non-diabetic individuals [5]. Similarly, the
+          recurrence rate of major atherosclerotic complications in type
+          2 diabetic patients with a prior cardiovascular event is very
+          high, around 6% per year [6]. These results document that
+          diabetes is a cardiovascular equivalent.
+
+          Epidemiological analysis of the
+          UKPDS [3] demonstrated that rising HbA1c was associated
+          with increased risk of myocardial infarction and stroke.
+
+
+
+Previous similar studies:
+
+1.  Oman study
